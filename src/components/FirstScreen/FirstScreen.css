@@ -22,3 +22,33 @@
 #first-screen-btn {
     width: 207px;
 }
+
+.fist-screen__title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+}
+
+.fist-screen__subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+
+    /* color-dark-s */
+
+    color: #CDCDCD;
+}

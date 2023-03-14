@@ -1,9 +1,14 @@
 import React from "react";
 import FirstScreen from "./components/FirstScreen/FirstScreen";
-import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 
 function App() {
-  return <div>{<FirstScreen />}</div>;
+  return (
+    <div>
+      <FirstScreen />
+      <Main />
+    </div>
+  );
 }
 
 export default App;

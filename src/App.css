@@ -1,18 +1,19 @@
 /* #root {} */
 
-.container {
-  height: 908px;
-  background: #FFFFFF;
-}
 
 .content {
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
 }
 
-.row {
+.row-sb {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+section:nth-child(even) {
+  background: #F6F6F6;
 }
 
 .column-sb {
@@ -31,7 +32,7 @@
   display: flex;
   align-items: center;
 
-  color: #FFFFFF;
+  color: #4C4C4C;
 
 }
 
@@ -48,7 +49,7 @@
 
   /* color-dark-s */
 
-  color: #CDCDCD;
+  color: #4C4C4C;
 }
 
 .btn {

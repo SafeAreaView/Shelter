@@ -1,0 +1,12 @@
+.container {
+    height: 588px;
+    background: #FFFFFF;
+}
+
+.second-screen-wrapper {
+    padding: 80px 215px 100px 215px;
+}
+
+.second-screen__content {
+    gap: 120px;
+}

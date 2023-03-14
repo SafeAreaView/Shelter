@@ -13,22 +13,22 @@ function Header() {
           <nav className="header__navigation">
             <ul className="navigation__list">
               <li>
-                <a className="list__item list__item--active" href="">
+                <a className="list__item list__item--active" href="#about">
                   About the shelter
                 </a>
               </li>
               <li>
-                <a className="list__item" href="">
+                <a className="list__item" href="#pets">
                   Our pets
                 </a>
               </li>
               <li>
-                <a className="list__item" href="">
+                <a className="list__item" href="#help">
                   Help the shelter
                 </a>
               </li>
               <li>
-                <a className="list__item" href="">
+                <a className="list__item" href="#contacts">
                   Contacts
                 </a>
               </li>

@@ -1,0 +1,23 @@
+.third-screen-container {
+
+    background: #FFFFFF;
+}
+
+.third-screen-wrapper {
+    padding: 80px 40px 100px 40px;
+}
+
+.third-screen__content {
+    align-items: center;
+    height: 697px;
+}
+
+.third-screen__title {
+    text-align: center;
+}
+
+.slider {
+    width: 1200px;
+    height: 435px;
+    background-color: gray;
+}
