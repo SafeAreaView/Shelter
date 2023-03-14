@@ -4,9 +4,9 @@ import "./PetsSection.css";
 function PetsSection() {
   return (
     <section id="a" className="third-screen-container">
-      <div className="third-screen-wrapper content">
+      <div className="section-padding content">
         <div className="third-screen__content column-sb">
-          <h2 className="third-screen__title title">
+          <h2 className="title-centered title">
             Our friends who <br /> are looking for a house
           </h2>
           <div className="slider"></div>

@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+.section-padding {
+  padding: 80px 40px 100px 40px;
+}
+
 .row-sb {
   display: flex;
   flex-direction: row;
@@ -34,6 +38,10 @@ section:nth-child(even) {
 
   color: #4C4C4C;
 
+}
+
+.title-centered {
+  text-align: center;
 }
 
 .subtitle {
