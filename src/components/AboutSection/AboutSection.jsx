@@ -1,12 +1,15 @@
 import React from "react";
-import "./SecondScreen.css";
+import "./AboutSection.css";
 
-function SecondScreen() {
+function AboutSection() {
   return (
     <section className="container">
       <div className="second-screen-wrapper content">
         <div className="second-screen__content row-sb">
-          <img src="/src/assets/images/second-screen-img.png" alt="" />
+          <img
+            src="/src/assets/images/about-section-img.png"
+            alt="Dog and Cat stays ilustration"
+          />
           <div className="second-screen__text-block column-sb">
             <h2 className="title">About the shelter “Cozy House”</h2>
             <p className="subtitle">
@@ -30,4 +33,4 @@ function SecondScreen() {
   );
 }
 
-export default SecondScreen;
+export default AboutSection;

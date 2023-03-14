@@ -1,11 +1,11 @@
 import React from "react";
-import FirstScreen from "./components/FirstScreen/FirstScreen";
+import MainSection from "./components/MainSefction/MainSection";
 import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div>
-      <FirstScreen />
+      <MainSection />
       <Main />
     </div>
   );

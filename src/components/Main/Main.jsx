@@ -1,12 +1,12 @@
 import React from "react";
-import SecondScreen from "../SecondScreen/SecondScreen";
-import ThirdScreen from "../ThirdScreen/ThirdScreen";
+import AboutSection from "../AboutSection/AboutSection";
+import PetsSection from "../PetsSection/PetsSection";
 
 function Main() {
   return (
     <main>
-      <SecondScreen />
-      <ThirdScreen />
+      <AboutSection />
+      <PetsSection />
     </main>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../Header/Header";
-import "./FirstScreen.css";
+import "./MainSection.css";
 
-function FirstScreen() {
+function MainSection() {
   return (
     <div className="first-screen-container">
       <div className="first-screen__wrapper">
@@ -25,11 +25,14 @@ function FirstScreen() {
               Make a friend
             </button>
           </div>
-          <img src="/src/assets/images/first-screen-img.png" alt="" />
+          <img
+            src="/src/assets/images/main-section-img.png"
+            alt="Brown dog illustration"
+          />
         </div>
       </div>
     </div>
   );
 }
 
-export default FirstScreen;
+export default MainSection;

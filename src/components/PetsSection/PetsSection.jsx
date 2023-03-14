@@ -1,7 +1,7 @@
 import React from "react";
-import "./ThirdScreen.css";
+import "./PetsSection.css";
 
-function ThirdScreen() {
+function PetsSection() {
   return (
     <section id="a" className="third-screen-container">
       <div className="third-screen-wrapper content">
@@ -17,4 +17,4 @@ function ThirdScreen() {
   );
 }
 
-export default ThirdScreen;
+export default PetsSection;
