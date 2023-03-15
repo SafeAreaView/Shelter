@@ -2,3 +2,22 @@
     align-items: center;
     height: 431px;
 }
+
+.help-section__list {
+    width: 1026px;
+    height: 281px;
+    background-color: gray;
+    display: flex;
+}
+
+.list__card {
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__icon {
+    width: 60px;
+    height: 60px;
+}

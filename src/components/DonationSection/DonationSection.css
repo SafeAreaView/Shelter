@@ -1,0 +1,30 @@
+.donation-section-container {
+    height: 462px;
+}
+
+.donation-section__content {
+    width: 915px;
+    height: 282px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.legal-info {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    display: flex;
+    align-items: center;
+
+    /* color-dark-m */
+
+    color: #B2B2B2;
+}
+
+#credit-card-btn {
+    width: 350px;
+}

@@ -3,7 +3,7 @@ import "./PetsSection.css";
 
 function PetsSection() {
   return (
-    <section id="a" className="pet-section-container">
+    <section id="pets" className="pet-section-container">
       <div className="section-padding content">
         <div className="pet-section__content column-sb">
           <h2 className="title-centered title">

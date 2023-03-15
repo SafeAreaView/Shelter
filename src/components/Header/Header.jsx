@@ -28,7 +28,7 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a className="list__item" href="#contacts">
+                <a className="list__item" href="#footer">
                   Contacts
                 </a>
               </li>
