@@ -26,7 +26,7 @@ function MainSection() {
             </button>
           </div>
           <img
-            src="/src/assets/images/main-section-img.png"
+            src="../src/assets/images/main-section-img.png"
             alt="Brown dog illustration"
           />
         </div>
