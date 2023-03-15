@@ -1,29 +1,29 @@
-.first-screen-container {
+.main-section-container {
     height: 908px;
     background: url(/src/assets/images/bg-transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
 
-.first-screen__wrapper {
+.main-section__wrapper {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-.first-screen-content {
+.main-section-content {
     justify-content: space-between;
     padding: 0 40px;
 }
 
-.first-screen-content__text-block {
+.main-section-content__text-block {
     margin-top: 163px;
     width: 420px;
     height: 322px;
 }
 
-#first-screen-btn {
+#main-section-btn {
     width: 207px;
 }
 
-.fist-screen__title {
+.main-section__title {
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;

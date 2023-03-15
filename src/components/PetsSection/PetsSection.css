@@ -1,9 +1,4 @@
-.third-screen-container {
-
-    background: #FFFFFF;
-}
-
-.third-screen__content {
+.pet-section__content {
     align-items: center;
     height: 697px;
 }

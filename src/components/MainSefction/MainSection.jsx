@@ -4,24 +4,24 @@ import "./MainSection.css";
 
 function MainSection() {
   return (
-    <div className="first-screen-container">
-      <div className="first-screen__wrapper">
+    <div className="main-section-container">
+      <div className="main-section__wrapper">
         <Header />
-        <div className="first-screen-content row-sb">
-          <div className="first-screen-content__text-block column-sb">
+        <div className="main-section-content row-sb">
+          <div className="main-section-content__text-block column-sb">
             <h2
-              className="fist-screen__title"
+              className="main-section__title"
               style={{ whiteSpace: "pre-wrap" }}
             >
               Not only people {/* prettier-ignore */}
               need a house
             </h2>
-            <p className="fist-screen__subtitle">
+            <p className="main-section__subtitle">
               We offer to give a chance to a little and nice puppy with an
               extremely wide and open heart. He or she will love you more than
               anybody else in the world, you will see!
             </p>
-            <button id="first-screen-btn" className="btn">
+            <button id="main-section-btn" className="btn">
               Make a friend
             </button>
           </div>

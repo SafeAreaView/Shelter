@@ -4,13 +4,13 @@ import "./AboutSection.css";
 function AboutSection() {
   return (
     <section className="container">
-      <div className="second-screen-wrapper content">
-        <div className="second-screen__content row-sb">
+      <div className="about-section-wrapper content">
+        <div className="about-section__content row-sb">
           <img
             src="/src/assets/images/about-section-img.png"
             alt="Dog and Cat stays ilustration"
           />
-          <div className="second-screen__text-block column-sb">
+          <div className="column-sb">
             <h2 className="title">About the shelter “Cozy House”</h2>
             <p className="subtitle">
               Currently we have 121 dogs and 342 cats on our hands and
