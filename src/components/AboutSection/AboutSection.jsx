@@ -7,7 +7,7 @@ function AboutSection() {
       <div className="about-section-wrapper content">
         <div className="about-section__content row-sb">
           <img
-            src="/src/assets/images/about-section-img.png"
+            src="./src/assets/images/about-section-img.png"
             alt="Dog and Cat stays ilustration"
           />
           <div className="column-sb">
