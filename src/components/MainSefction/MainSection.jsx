@@ -26,9 +26,7 @@ function MainSection() {
             </button>
           </div>
           <img
-            src={
-              process.env.PUBLIC_URL + "/src/assets/images/main-section-img.png"
-            }
+            src="/src/assets/images/main-section-img.png"
             alt="Brown dog illustration"
           />
         </div>
