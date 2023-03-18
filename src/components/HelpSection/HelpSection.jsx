@@ -9,38 +9,82 @@ function HelpSection() {
           <h2 className="title-centered title">
             How you can help <br /> our shelter
           </h2>
-          <div className="help-section__list">
-            <div className="list__card">
-              <img
-                src="/src/assets/icons/icon-pet-food.svg"
-                alt=""
-                className="card__icon"
-              />
-              <h3 className="card__name">Pet food</h3>
+          <div className="help-section__list column-sb">
+            <div className="list__row--first row-sb">
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-pet-food.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Pet food</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-transportation.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Transportation</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-toys.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Toys</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-bowls-and-cups.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Bowls and cups</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-shampoos.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Shampoos</h3>
+              </div>
             </div>
-            <div className="list__card">
-              <img
-                src="/src/assets/icons/icon-pet-food.svg"
-                alt=""
-                className="card__icon"
-              />
-              <h3 className="card__name">Pet food</h3>
-            </div>
-            <div className="list__card">
-              <img
-                src="/src/assets/icons/icon-pet-food.svg"
-                alt=""
-                className="card__icon"
-              />
-              <h3 className="card__name">Pet food</h3>
-            </div>
-            <div className="list__card">
-              <img
-                src="/src/assets/icons/icon-pet-food.svg"
-                alt=""
-                className="card__icon"
-              />
-              <h3 className="card__name">Pet food</h3>
+            <div className="list__row--second row-sb">
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-vitamins.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Vitamins</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-medicines.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Medicines</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-collars-leashes.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Collars / leashes</h3>
+              </div>
+              <div className="list__card">
+                <img
+                  src="/src/assets/icons/icon-sleeping-area.svg"
+                  alt=""
+                  className="card__icon"
+                />
+                <h3 className="card__name">Sleeping areas</h3>
+              </div>
             </div>
           </div>
         </div>
