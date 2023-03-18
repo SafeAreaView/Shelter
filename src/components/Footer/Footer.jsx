@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <div className="footer__wrapper row-sb">
         <div className="footer__link-box column-sb">
           <h3 id="footer-title" className="title">
@@ -39,7 +39,7 @@ function Footer() {
           alt=""
         />
       </div>
-    </div>
+    </footer>
   );
 }
 
