@@ -5,3 +5,8 @@
 .about-section__content {
     gap: 120px;
 }
+
+.about-section__img {
+    width: 300px;
+    height: 408px;
+}
