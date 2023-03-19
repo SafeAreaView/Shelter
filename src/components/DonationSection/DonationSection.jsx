@@ -9,7 +9,7 @@ function DonationSection() {
           <img
             className="donation-section__img"
             src="./src/assets/images/donation-section-img.png"
-            alt=""
+            alt="Gold Retreiver puppy photo"
           />
           <div className="donation-section__text-block column-sb">
             <h3 className="title">

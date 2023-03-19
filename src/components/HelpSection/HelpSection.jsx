@@ -14,7 +14,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-pet-food.svg"
-                  alt=""
+                  alt="Pet food icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Pet food</h3>
@@ -22,7 +22,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-transportation.svg"
-                  alt=""
+                  alt="Transportation icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Transportation</h3>
@@ -30,7 +30,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-toys.svg"
-                  alt=""
+                  alt="Toys icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Toys</h3>
@@ -38,7 +38,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-bowls-and-cups.svg"
-                  alt=""
+                  alt="Bowls and cups icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Bowls and cups</h3>
@@ -46,7 +46,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-shampoos.svg"
-                  alt=""
+                  alt="Shampoos icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Shampoos</h3>
@@ -56,7 +56,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-vitamins.svg"
-                  alt=""
+                  alt="Vitamins icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Vitamins</h3>
@@ -64,7 +64,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-medicines.svg"
-                  alt=""
+                  alt="Medicines icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Medicines</h3>
@@ -72,7 +72,7 @@ function HelpSection() {
               <div className="list__card">
                 <img
                   src="/src/assets/icons/icon-collars-leashes.svg"
-                  alt=""
+                  alt="Collars / leashes icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Collars / leashes</h3>
