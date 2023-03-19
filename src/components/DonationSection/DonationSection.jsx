@@ -6,7 +6,11 @@ function DonationSection() {
     <section className="donation-section-container">
       <div className="section-padding content">
         <div className="donation-section__content row-sb">
-          <img src="./src/assets/images/donation-section-img.png" alt="" />
+          <img
+            className="donation-section__img"
+            src="./src/assets/images/donation-section-img.png"
+            alt=""
+          />
           <div className="donation-section__text-block column-sb">
             <h3 className="title">
               You can also <br /> make a donation
