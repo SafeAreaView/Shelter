@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import "./MainSection.css";
+const mainSectionImgPath = "/public/main-section-img.png";
 
 function MainSection() {
   return (
@@ -25,10 +26,7 @@ function MainSection() {
               Make a friend
             </button>
           </div>
-          <img
-            src="/public/main-section-img.png"
-            alt="Brown dog illustration"
-          />
+          <img src={mainSectionImgPath} alt="Brown dog illustration" />
         </div>
       </div>
     </div>
