@@ -10,11 +10,19 @@ function Footer() {
             For questions and suggestions
           </h3>
           <a href="mailto:email@shelter.com" className="footer__link">
-            <img src="./src/assets/icons/icon-email.svg" alt="" />
+            <img
+              className="link__img"
+              src="./src/assets/icons/icon-email.svg"
+              alt="Email icon"
+            />
             <span className="link__name">email@shelter.com</span>
           </a>
           <a href="tel:+13-674-567-75-54" className="footer__link">
-            <img src="./src/assets/icons/icon-phone.svg" alt="" />
+            <img
+              className="link__img"
+              src="./src/assets/icons/icon-phone.svg"
+              alt="Telephone icon"
+            />
             <span className="link__name">+13 674 567 75 54</span>
           </a>
         </div>
@@ -23,20 +31,28 @@ function Footer() {
             We are waiting <br /> for your visit
           </h3>
           <a href="" className="footer__link">
-            <img src="./src/assets/icons/icon-marker.svg" alt="" />
+            <img
+              className="link__img"
+              src="./src/assets/icons/icon-marker.svg"
+              alt="Marker icon"
+            />
             <span className="link__name">
               1 Central Street, Boston <br /> (entrance from the store)
             </span>
           </a>
           <a href="" className="footer__link">
-            <img src="./src/assets/icons/icon-marker.svg" alt="" />
+            <img
+              className="link__img"
+              src="./src/assets/icons/icon-marker.svg"
+              alt="Marker icon"
+            />
             <span className="link__name">18 South Park, London </span>
           </a>
         </div>{" "}
         <img
           className="footer__image"
           src="./src/assets/images/footer-img.png"
-          alt=""
+          alt="Gold Retreiver photo"
         />
       </div>
     </footer>
