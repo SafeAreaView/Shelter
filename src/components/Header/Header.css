@@ -71,6 +71,10 @@
     text-decoration: none;
 }
 
+.list__item:hover {
+    cursor: url(/src/assets/icons/cursor-hover.svg) pointer;
+}
+
 .list__item--active {
     border-bottom: 3px solid #F1CDB3;
 }
