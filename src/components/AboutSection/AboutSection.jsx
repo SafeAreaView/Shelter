@@ -7,7 +7,7 @@ function AboutSection() {
       <div className="about-section-wrapper content">
         <div className="about-section__content row-sb">
           <div className="about-section__img"></div>
-          <div className="column-sb">
+          <div className="about-section__text column-sb">
             <h2 className="title">About the shelter “Cozy House”</h2>
             <p className="subtitle">
               Currently we have 121 dogs and 342 cats on our hands and
