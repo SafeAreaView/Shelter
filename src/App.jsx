@@ -7,7 +7,9 @@ import AboutPage from "./components/AboutPage/AboutPage";
 function App() {
   return (
     <div>
-      <AboutPage></AboutPage>
+      <MainSection />
+      <Main />
+      <Footer></Footer>
     </div>
   );
 }
