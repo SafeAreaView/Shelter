@@ -1,4 +1,6 @@
-/* #root {} */
+#root {
+  cursor: url(/src/assets/icons/cursor-default.svg), pointer;
+}
 
 
 .content {
