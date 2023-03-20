@@ -6,11 +6,7 @@ function AboutSection() {
     <section id="about" className="container">
       <div className="about-section-wrapper content">
         <div className="about-section__content row-sb">
-          <img
-            className="about-section__img"
-            src="./src/assets/images/about-section-img.png"
-            alt="Dog and Cat stays ilustration"
-          />
+          <div className="about-section__img"></div>
           <div className="column-sb">
             <h2 className="title">About the shelter “Cozy House”</h2>
             <p className="subtitle">
