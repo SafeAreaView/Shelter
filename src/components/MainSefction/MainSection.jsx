@@ -28,7 +28,7 @@ function MainSection() {
           </div>
           <img
             className="main-section__img"
-            src={mainSectionImgPath}
+            src="#"
             alt="Brown dog illustration"
           />
         </div>
