@@ -1,8 +1,6 @@
 .header {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 60px;
-    margin-bottom: 60px;
+    width: 1200px;
+    margin: 0 auto;
     font-family: 'Georgia', sans-serif;
     display: flex;
     flex-direction: row;

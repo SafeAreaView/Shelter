@@ -7,7 +7,9 @@ function MainSection() {
   return (
     <div className="main-section-container">
       <div className="main-section__wrapper">
-        <Header />
+        <div className="header-wrapper">
+          <Header />
+        </div>
         <div className="main-section-content row-sb">
           <div className="main-section-content__text-block column-sb">
             <h2
