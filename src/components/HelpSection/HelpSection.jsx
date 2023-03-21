@@ -1,5 +1,14 @@
 import React from "react";
 import "./HelpSection.css";
+import petFoodIcon from "/src/assets/icons/icon-pet-food.svg";
+import transportationIcon from "/src/assets/icons/icon-transportation.svg";
+import toysIcon from "/src/assets/icons/icon-toys.svg";
+import bowlsIcon from "/src/assets/icons/icon-bowls-and-cups.svg";
+import shampoosIcon from "/src/assets/icons/icon-shampoos.svg";
+import vitaminsIcon from "/src/assets/icons/icon-vitamins.svg";
+import medecinesIcon from "/src/assets/icons/icon-medicines.svg";
+import collarsIcon from "/src/assets/icons/icon-collars-leashes.svg";
+import sleepingIcon from "/src/assets/icons/icon-sleeping-area.svg";
 
 function HelpSection() {
   return (
@@ -13,7 +22,7 @@ function HelpSection() {
             <div className="list__row--first row-sb">
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-pet-food.svg"
+                  src={petFoodIcon}
                   alt="Pet food icon"
                   className="card__icon"
                 />
@@ -21,23 +30,19 @@ function HelpSection() {
               </div>
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-transportation.svg"
+                  src={transportationIcon}
                   alt="Transportation icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Transportation</h3>
               </div>
               <div className="list__card">
-                <img
-                  src="/src/assets/icons/icon-toys.svg"
-                  alt="Toys icon"
-                  className="card__icon"
-                />
+                <img src={toysIcon} alt="Toys icon" className="card__icon" />
                 <h3 className="card__name">Toys</h3>
               </div>
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-bowls-and-cups.svg"
+                  src={bowlsIcon}
                   alt="Bowls and cups icon"
                   className="card__icon"
                 />
@@ -45,7 +50,7 @@ function HelpSection() {
               </div>
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-shampoos.svg"
+                  src={shampoosIcon}
                   alt="Shampoos icon"
                   className="card__icon"
                 />
@@ -55,7 +60,7 @@ function HelpSection() {
             <div className="list__row--second row-sb">
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-vitamins.svg"
+                  src={vitaminsIcon}
                   alt="Vitamins icon"
                   className="card__icon"
                 />
@@ -63,7 +68,7 @@ function HelpSection() {
               </div>
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-medicines.svg"
+                  src={medecinesIcon}
                   alt="Medicines icon"
                   className="card__icon"
                 />
@@ -71,18 +76,14 @@ function HelpSection() {
               </div>
               <div className="list__card">
                 <img
-                  src="/src/assets/icons/icon-collars-leashes.svg"
+                  src={collarsIcon}
                   alt="Collars / leashes icon"
                   className="card__icon"
                 />
                 <h3 className="card__name">Collars / leashes</h3>
               </div>
               <div className="list__card">
-                <img
-                  src="/src/assets/icons/icon-sleeping-area.svg"
-                  alt=""
-                  className="card__icon"
-                />
+                <img src={sleepingIcon} alt="" className="card__icon" />
                 <h3 className="card__name">Sleeping areas</h3>
               </div>
             </div>

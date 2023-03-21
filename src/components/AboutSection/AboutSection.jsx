@@ -1,12 +1,13 @@
 import React from "react";
 import "./AboutSection.css";
+import aboutSectionImg from "/src/assets/images/about-section-img.png";
 
 function AboutSection() {
   return (
     <section id="about" className="container">
       <div className="about-section-wrapper content">
         <div className="about-section__content row-sb">
-          <div className="about-section__img"></div>
+          <img src={aboutSectionImg} alt="" className="about-section__img" />
           <div className="about-section__text column-sb">
             <h2 className="title">About the shelter “Cozy House”</h2>
             <p className="subtitle">
