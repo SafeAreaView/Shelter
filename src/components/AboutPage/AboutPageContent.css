@@ -1,1 +1,10 @@
-.about-page-content {}
+.about-page__content {
+    align-items: center;
+    height: 1342px;
+}
+
+.cards__container {
+    width: 1200px;
+    height: 930px;
+    background-color: rgb(46, 44, 44);
+}
