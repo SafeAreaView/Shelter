@@ -86,4 +86,10 @@ section:nth-child(even) {
 
   background: #F1CDB3;
   border-radius: 100px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #FDDCC4;
+  cursor: url('/src/assets/icons/cursor-hover.svg'), auto;
 }

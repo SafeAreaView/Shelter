@@ -38,3 +38,14 @@
     width: 380px;
     height: 285px;
 }
+
+.subtitle-donation {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #545454;
+    letter-spacing: 0.06em;
+
+}
