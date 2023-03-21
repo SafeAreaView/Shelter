@@ -16,7 +16,7 @@
 
 .footer__link-box {
     align-self: center;
-    width: 300px;
+    width: 320px;
     height: 234px;
 }
 
@@ -26,6 +26,10 @@
     align-items: center;
     display: flex;
     gap: 20px;
+}
+
+.footer__link:hover {
+    cursor: url('/src/assets/icons/cursor-hover.svg'), auto;
 }
 
 .link__name {

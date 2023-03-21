@@ -16,7 +16,9 @@ function DonationSection() {
             <h3 className="title">
               You can also <br /> make a donation
             </h3>
-            <p className="subtitle">Name of the bank / Type of bank account</p>
+            <p className="subtitle-donation">
+              Name of the bank / Type of bank account
+            </p>
             <button className="btn" id="credit-card-btn">
               8380 2880 8028 8791 7435
             </button>

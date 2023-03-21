@@ -7,11 +7,11 @@ import footerIcon from "/src/assets/images/footer-img.png";
 
 function Footer() {
   return (
-    <footer className="footer-container">
+    <footer id="footer" className="footer-container">
       <div className="footer__wrapper row-sb">
         <div className="footer__link-box column-sb">
           <h3 id="footer-title" className="title">
-            For questions and suggestions
+            For questions <br /> and suggestions
           </h3>
           <a href="mailto:email@shelter.com" className="footer__link">
             <img className="link__img" src={emailIcon} alt="Email icon" />

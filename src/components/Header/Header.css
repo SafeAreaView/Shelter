@@ -69,12 +69,15 @@
     color: #CDCDCD;
 
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .list__item:hover {
-    cursor: url(/src/assets/icons/cursor-hover.svg) pointer;
+    color: #FDDCC4;
+    cursor: url('/src/assets/icons/cursor-hover.svg'), auto;
 }
 
 .list__item--active {
     border-bottom: 3px solid #F1CDB3;
+    color: #FDDCC4;
 }
