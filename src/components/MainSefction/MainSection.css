@@ -8,6 +8,13 @@
     margin: 0 auto;
 }
 
+@media (min-device-width: 768px) {
+    .main-section__wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
 .header-wrapper {
     padding-left: 40px;
     padding-right: 40px;
@@ -64,4 +71,16 @@
     width: 698px;
     height: 728px;
     /* background-image: url(/src/assets/images/main-section-img.png); */
+}
+
+@media (min-device-width: 768px) {
+    .header-wrapper {
+        padding: 30;
+    }
+
+    .main-section__img {
+        width: 569px;
+        height: 593px;
+        /* background-image: url(/src/assets/images/main-section-img.png); */
+    }
 }

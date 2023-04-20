@@ -8,3 +8,10 @@
     height: 435px;
     background-color: gray;
 }
+
+@media (min-device-width: 768px) {
+    .slider {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
